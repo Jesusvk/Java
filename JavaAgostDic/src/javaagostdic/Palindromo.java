@@ -13,7 +13,7 @@ import java.io.InputStreamReader;
  *
  * @author Jesus
  */
-public class JavaAgostDic {
+public class Palindromo {
 
     /**
      * @param args the command line arguments
