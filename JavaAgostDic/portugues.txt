@@ -1,0 +1,16 @@
+Portuñol es un lenguaje especial que se desarrolló de forma natural en América Latina. Dado que casi la mitad de América Latina habla portuguesa (Portugues) y casi la mitad habla español (Español), la mezcla de los dos idiomas es natural.
+Cada palabra en portuñol se hace tomando un prefijo no vacío de una palabra portuguesa y un sufijo no vacío de una palabra española, y concatenar juntos. Un prefijo de una palabra es palabra que se puede obtener por el borrado de cero o más caracteres de su extremo derecho. Un sufijo de una palabra es la palabra que se puede obtener por el borrado de cero o más caracteres desde su extremo izquierdo.
+
+El nombre de la lengua en sí proviene de tomar un prefijo de la palabra "Portugues" (Portu) y un sufijo de la palabra "Español" (NOL), y la concatenación de ellos. Por supuesto, no todas las formas posibles de combinar dos palabras se traducirá en algo significativo, o incluso pronunciables, pero eso no es importante. Queremos que usted escribe un programa para contar el número de palabras diferentes portuñol.
+Se le dará dos conjuntos no vacíos de las palabras para poner a prueba su programa. El primer conjunto representará
+Palabras portuguesas y el segundo conjunto representarán palabras en español. Es necesario para calcular el número de palabras portuñol diferentes que se pueden hacer usando la regla de prefijo y sufijo descrito anteriormente. Tenga en cuenta que la misma palabra puede construirse de varias maneras, pero todavía tiene que ser contado como uno. También tenga en cuenta que los conjuntos de entrada son sólo para probar su programa, por lo que no necesitan ser hechas de palabras portuguesas o españolas reales.
+
+Entrada
+
+Cada caso de prueba se describe el uso de varias líneas. La primera línea contiene dos enteros P y S que representan, respectivamente, el número de palabras portuguesas y el número de palabras en español (1 <= P; S <= 1.000). Cada una de las siguientes líneas de P contiene una palabra portuguesa, y después de que cada una de las siguientes líneas S contiene una palabra española. Cada palabra es una cadena no vacía de un máximo de 1000 caracteres; cada personaje es una de las 26 letras minúsculas estándar (de 'a' a la 'z'). Usted puede asumir que dentro de cada caso de prueba que no hay dos palabras portuguesas son los mismos, y que la suma de las longitudes de todas las palabras portuguesas es como máximo de 105. Lo mismo vale para las palabras en español.
+El último caso de prueba es seguida por una línea que contiene dos ceros.
+
+Salida
+
+Para cada salida de caso de prueba una línea con un entero que representa el número de palabras diferentes que se puede construir mediante la concatenación de un prefijo no vacío de una palabra en el primer set (palabras portuguesas) y un sufijo no vacío de una palabra en el segundo establecidos (palabras en español).
+
