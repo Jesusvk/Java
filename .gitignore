@@ -1,5 +1,6 @@
 /JavaAgostoDiciembre/nbproject/private/
 /JavaAgostoDiciembre/build/
+<<<<<<< HEAD
 /Sockets_Prueba/nbproject/private/
 /Sockets_Prueba/build/
 /Lanssenger/nbproject/private/
@@ -7,3 +8,7 @@
 /Ms-Cliente/dist/
 /Ms-Servidor/dist/
 /Sockets_Prueba/dist/
+=======
+/JavaAgostDic/nbproject/private/
+/JavaAgostDic/build/
+>>>>>>> 9a2cd54e1216e7d9f4f62db33c835eb315b105f8

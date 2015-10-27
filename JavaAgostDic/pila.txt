@@ -1,0 +1,15 @@
+Bola de apilamiento
+El canal de televisión XYZ está desarrollando un nuevo programa de juegos, donde un concursante tiene que tomar algunas decisiones
+con el fin de conseguir un premio. El juego consiste en una pila triangular de las bolas, cada uno de ellos con un número entero
+valor, como muestra el siguiente ejemplo.
+
+El concursante deberá elegir qué bolas que va a tomar y su premio es la suma de los valores
+de esas bolas. Sin embargo, el concursante puede tomar cualquier bola dada sólo si él también tiene la parte superior bolas directlyon de ella. Esto puede requerir tomar bolas adicionales utilizando la misma regla. Observe que el concursante podrá optar por no tomar ninguna bola, en cuyo caso el premio es igual a cero.
+El programa de televisión el director está preocupado por el premio máximo que un concursante puede hacer para una determinada
+apilar. Puesto que él es su jefe y él no sabe cómo responder a esta pregunta, se le asigna esta tarea para usted.
+
+Entrada
+Cada caso de prueba se describe el uso de varias líneas. La línea _rst contiene un número entero N representa el número de filas de la pila (1 _ N _ 1.000). El i-th de las siguientes líneas N contiene i enteros Bij (􀀀105 _ _ Bij 105 por 1 _ j _ i _ N); el número Bij es el valor de la bola-j en la fila i de la pila (la fila _rst es la de más arriba, y dentro de cada fila la pelota _rst si el extremo izquierdo). El último caso de prueba es seguido por una línea que contiene un cero.
+Salida
+Para cada salida de caso de prueba una línea con un entero que representa el premio máximo que un concursante puede
+hacer de la pila.
